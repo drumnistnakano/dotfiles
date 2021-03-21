@@ -1,0 +1,30 @@
+# [dein.toml]
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# ステータスライン
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+  let g:lightline = {
+      \   'colorscheme': 'deus',
+      \ }
+  set noshowmode
+'''
+
+# コメントアウトショートカット 
+[[plugins]]
+repo = 'tyru/caw.vim'
+
+# ディレクトリ/ファイル操作
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+
+# タグ囲み
+[[plugins]]
+repo = 'alvan/vim-closetag'
+
+# wakatime 用のプラグイン/トラッキング
+[[plugins]]
+repo = 'wakatime/vim-wakatime'
