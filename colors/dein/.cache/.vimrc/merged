@@ -1,0 +1,3 @@
+{'repo': v:val.repo, 'rev': get(v:val, 'rev', '')}
+0
+[{'rev': '', 'repo': '/Users/nakano.yoshiyuki/.vim/dein/repos/github.com/Shougo/dein.vim'}, {'rev': '', 'repo': 'raphamorim/lucario'}, {'rev': '', 'repo': 'scrooloose/nerdtree'}]
