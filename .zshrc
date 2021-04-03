@@ -14,7 +14,6 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 
 POWERLEVEL9K_CUSTOM_OS_ICON="echo "
-
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_os_icon dir_writable dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time battery)
 
@@ -130,3 +129,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 setopt +o nomatch
+
+# history time
+alias history='history -i'
