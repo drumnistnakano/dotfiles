@@ -14,5 +14,5 @@
 ```
 $ cd ~/
 $ git clone https://github.com/drumnistnakano/dotfiles.git
-$ sh dotfilesLink.sh
+$ sh dotfilesSynbolickLink.sh
 ```
