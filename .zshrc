@@ -42,13 +42,9 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.rbenv/bin:$PATH" 
 eval "$(rbenv init - zsh)"
 
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # zshで no match found の対策
 setopt +o nomatch
@@ -87,3 +83,9 @@ setopt hist_ignore_all_dups
 
 # 履歴ファイルにzsh の開始・終了時刻を記録する
 setopt extended_history
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/nakano.yoshiyuki/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

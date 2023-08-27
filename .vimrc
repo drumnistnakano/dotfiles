@@ -1,4 +1,4 @@
-"dein Scripts-----------------------------
+"dein
 if &compatible
   set nocompatible               " Be iMproved
 endif
@@ -29,8 +29,6 @@ syntax enable
 if dein#check_install()
   call dein#install()
 endif
-
-"End dein Scripts-------------------------
 
 " setting
 "文字コードをUFT-8に設定
@@ -99,3 +97,4 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+set statusline=%<%f\ %m\ %r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=\ (%v,%l)\%L%BP\
