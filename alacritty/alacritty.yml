@@ -5,7 +5,7 @@ window:
   padding:
     x: 8
     y: 4
-  opacity: 0.99
+  opacity: 0.95
 
 # dracula theme
 # @see https://draculatheme.com/alacritty
@@ -20,18 +20,12 @@ scrolling:
 # Font
 font:
   size: 16
-  # normal:
-  #   family: "HackGen35Nerd Console"
-  #   style: Regular
-  # bold:
-  #   family: "HackGen35Nerd Console"
-  #   style: Bold
-  # italic:
-  #   family: "HackGen35Nerd Console"
-  #   style: Italic
-  # bold_italic:
-  #   family: "HackGen35Nerd Console"
-  #   style: Bold Itali
+  normal:
+    family: Monaco
+  bold:
+    family: Monaco
+  italic:
+    family: Monaco
 
 cursor:
   style:
