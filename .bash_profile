@@ -23,3 +23,6 @@ _awsume() {
     return 0
 }
 complete -F _awsume awsume
+
+#AWSume alias to source the AWSume script
+alias awsume="source awsume"
