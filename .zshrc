@@ -118,3 +118,8 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="$PATH:/Users/nakano.yoshiyuki/.local/bin"
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/nakano.yoshiyuki/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
