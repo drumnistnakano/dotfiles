@@ -1,6 +1,6 @@
-## dotfilesとは
+## dotfiles とは
 
-ホームディレクトリ配下のドットファイルをGihtubで管理
+ホームディレクトリ配下のドットファイルを Gihtub で管理
 
 ## 作成手順
 
@@ -11,8 +11,16 @@
 - git init && git push
 
 ## 別のローカル環境に設定を適用
+
 ```
 $ cd ~/
 $ git clone https://github.com/drumnistnakano/dotfiles.git
 $ sh dotfilesSynbolickLink.sh
+```
+
+## Brewfile 更新
+
+```
+$ brew bundle dump --global --force
+$ git diff .Brewfile # 更新内容を確認
 ```
